@@ -17,7 +17,6 @@ body {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 10px 15px 7px #555555;
-
 }
 
 .header {
@@ -41,8 +40,7 @@ body {
 }
 
 .info p {
-    margin: 5px 0;
-    color: #555;
+    margin: 5px;
     font-size: 14px;
     line-height: 1.4;
 }
@@ -69,7 +67,6 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    color: #333;
 }
 
 .icon img {
@@ -79,26 +76,15 @@ body {
 }
 
 .icon a {
-    color: #333;
+    color: #000000;
     text-decoration: none;
 }
 
 .icon a:hover{
-    color:#D5B6B6;
+    color:#ffffff;
 }
 
-.main-content {
-    flex: 1;
-    padding: 30px;
-}
-
-.skills-section {
-    margin-bottom: 25px;
-}
-
-.skills-section h1, 
-.awards h1, 
-.activities h1 {
+.skills-section h1, .awards h1, .activities h1 {
     font-size: 24px;
     margin-bottom: 20px;
     font-weight: bold;
@@ -124,17 +110,13 @@ body {
     border: none;
     height: 1px;
     background-color: #363636;
-    margin: 15px 0;
+    margin: 15px;
 }
 
 .info-columns {
     display: flex;
     gap: 60px;
     margin-top: 15px;
-}
-
-.awards, .activities {
-    flex: 1;
 }
 
 .award-item, .activity-item {

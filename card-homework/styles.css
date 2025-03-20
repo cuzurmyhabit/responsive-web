@@ -1,0 +1,178 @@
+body {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+    background-color: #EFE5D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 15px 7px #555555;
+
+}
+
+.header {
+    display: flex;
+    padding: 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.header img {
+    width: 150px;
+    height: 200px;
+    margin-right: 130px;
+    
+}
+
+.info h1 {
+    font-size: 32px;
+    margin: 0 0 15px 0;
+    color: #000;
+}
+
+.info p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.highlight {
+    color: #D5B6B6;
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    background: linear-gradient(to bottom, #D5B6B6, #927271);
+    padding: 0;
+    min-height: 500px;
+}
+
+.sidebar {
+    width: 250px;
+    background: transparent;
+    padding: 30px 15px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.icon img {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+.icon a {
+    color: #333;
+    text-decoration: none;
+}
+
+.icon a:hover{
+    color:#D5B6B6;
+}
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+}
+
+.skills-section {
+    margin-bottom: 25px;
+}
+
+.skills-section h1, 
+.awards h1, 
+.activities h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.skill-icons {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.left, .right {
+    display: flex;
+    gap: 10px;
+}
+
+.skill-icons img {
+    width: 48px;
+    height: 48px;
+}
+
+.line {
+    border: none;
+    height: 1px;
+    background-color: #363636;
+    margin: 15px 0;
+}
+
+.info-columns {
+    display: flex;
+    gap: 60px;
+    margin-top: 15px;
+}
+
+.awards, .activities {
+    flex: 1;
+}
+
+.award-item, .activity-item {
+    display: flex;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.date {
+    width: 80px;
+    color: #000;
+    font-weight: 500;
+}
+
+
+
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .info-columns {
+        flex-direction: column;
+    }
+    
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .header img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
